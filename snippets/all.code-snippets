@@ -1,0 +1,22 @@
+{
+  "Date time": {
+    "scope": "javascript,typescript,markdown",
+    "prefix": "g.datetime",
+    "body": [
+      "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND $0"
+    ],
+    "description": "Current date time"
+  },
+  "Date": {
+    "scope": "javascript,typescript,markdown",
+    "prefix": "g.date",
+    "body": ["$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $0"],
+    "description": "Current date"
+  },
+  "Time": {
+    "scope": "javascript,typescript,markdown",
+    "prefix": "g.time",
+    "body": ["$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND $0"],
+    "description": "Current time"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "./schema/config.schema.json",
+  "snippets": [
+    {
+      "url": "./snippets/all.code-snippets"
+    },
+    {
+      "url": "./snippets/vue.code-snippets",
+      "language": "vue"
+    }
+  ]
+}
