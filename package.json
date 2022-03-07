@@ -1,0 +1,31 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "Collection of code snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x-jerry/snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x-jerry/snippets/issues"
+  },
+  "homepage": "https://github.com/0x-jerry/snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/all.code-snippets"
+      },
+      {
+        "path": "./snippets/vue.code-snippets",
+        "language": "vue"
+      }
+    ]
+  }
+}
