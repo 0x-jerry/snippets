@@ -20,10 +20,10 @@
   "contributes": {
     "snippets": [
       {
-        "path": "./snippets/all.code-snippets"
+        "path": "./.vscode/all.code-snippets"
       },
       {
-        "path": "./snippets/vue.code-snippets",
+        "path": "./.vscode/vue.code-snippets",
         "language": "vue"
       }
     ]

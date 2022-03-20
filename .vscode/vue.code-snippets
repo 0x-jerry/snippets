@@ -1,13 +1,13 @@
 {
   "Vue3 Setup": {
-    "prefix": "vue3",
+    "prefix": "vue setup",
     "body": [
       "<script lang='ts' setup>",
-      "$1",
+      "$2",
       "</script>",
       "",
       "<template>",
-      "$0",
+      "$1",
       "</template>",
       "",
       "<style>",
