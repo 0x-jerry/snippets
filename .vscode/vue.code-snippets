@@ -13,5 +13,20 @@
       "<style lang='less'>",
       "</style>"
     ]
+  },
+  "Vue3 Scoped Setup": {
+    "prefix": "vue scoped",
+    "body": [
+      "<script lang='ts' setup>",
+      "$2",
+      "</script>",
+      "",
+      "<template>",
+      "$1",
+      "</template>",
+      "",
+      "<style lang='less' scoped>",
+      "</style>"
+    ]
   }
 }
