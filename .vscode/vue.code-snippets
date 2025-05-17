@@ -1,28 +1,58 @@
 {
-  "Vue3 Setup": {
-    "prefix": "vue setup",
+  "Vue3 Scss Setup": {
+    "prefix": "vue scss",
     "body": [
       "<script lang='ts' setup>",
-      "$2",
+      "",
       "</script>",
       "",
       "<template>",
-      "$1",
+      "$0",
+      "</template>",
+      "",
+      "<style lang='scss'>",
+      "</style>"
+    ]
+  },
+  "Vue3 Scss Scoped Setup": {
+    "prefix": "vue scss scoped",
+    "body": [
+      "<script lang='ts' setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "$0",
+      "</template>",
+      "",
+      "<style lang='scss' scoped>",
+      "</style>"
+    ]
+  },
+  "Vue3 Less Setup": {
+    "prefix": "vue less",
+    "body": [
+      "<script lang='ts' setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "$0",
       "</template>",
       "",
       "<style lang='less'>",
       "</style>"
     ]
   },
-  "Vue3 Scoped Setup": {
-    "prefix": "vue scoped",
+  "Vue3 Less Scoped Setup": {
+    "prefix": "vue less scoped",
     "body": [
       "<script lang='ts' setup>",
-      "$2",
+      "",
       "</script>",
       "",
       "<template>",
-      "$1",
+      "$0",
       "</template>",
       "",
       "<style lang='less' scoped>",
